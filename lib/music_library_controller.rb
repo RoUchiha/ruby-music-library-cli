@@ -13,7 +13,6 @@ class MusicLibraryController
         user_input = ""
         while user_input != "exit"
             puts "Welcome to your music library!"
-            puts "What would you like to do?"
             puts "To list all of your songs, enter 'list songs'."
             puts "To list all of the artists in your library, enter 'list artists'."
             puts "To list all of the songs by a particular artist, enter 'list artist'."
@@ -21,7 +20,8 @@ class MusicLibraryController
             puts "To list all of the songs of a particular genre, enter 'list genre'."
             puts "To play a song, enter 'play song'."
             puts "To quit, type 'exit'."
-            
+            puts "What would you like to do?"
+                
             user_input = gets.strip
             case user_input
             
